@@ -62,6 +62,11 @@ strong {
         flex-direction: row;
     }
 }
+.current-page {
+    border-bottom: 1px solid #707070;
+    color: #1792d2;
+    transition: letter-spacing 250ms;
+}
 
 `;
 

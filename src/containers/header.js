@@ -14,7 +14,7 @@ export function HeaderContainer({children}){
           <Header.Navigation>
             <Header.NavList>
               <Header.NavListItem>
-                <Header.NavLink>Home</Header.NavLink>
+                <Header.NavLink className="current-page">Home</Header.NavLink>
               </Header.NavListItem>
               <Header.NavListItem>
                 <Header.NavLink>About me</Header.NavLink>
