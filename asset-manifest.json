@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/minimalist_life_blog_react/static/js/main.584f7541.chunk.js",
-    "main.js.map": "/minimalist_life_blog_react/static/js/main.584f7541.chunk.js.map",
+    "main.js": "/minimalist_life_blog_react/static/js/main.a3f1be89.chunk.js",
+    "main.js.map": "/minimalist_life_blog_react/static/js/main.a3f1be89.chunk.js.map",
     "runtime-main.js": "/minimalist_life_blog_react/static/js/runtime-main.fd978520.js",
     "runtime-main.js.map": "/minimalist_life_blog_react/static/js/runtime-main.fd978520.js.map",
     "static/js/2.61ab6ad1.chunk.js": "/minimalist_life_blog_react/static/js/2.61ab6ad1.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.fd978520.js",
     "static/js/2.61ab6ad1.chunk.js",
-    "static/js/main.584f7541.chunk.js"
+    "static/js/main.a3f1be89.chunk.js"
   ]
 }
