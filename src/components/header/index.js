@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  HeaderDiv,
   Container,
   SiteTitleContainer,
   Title,
@@ -14,10 +13,6 @@ import {
 export default function Header({ children, ...restProps }) {
   return <></>;
 }
-
-Header.HeaderDiv = function HeasderHeaderDiv({ children, ...restProps }) {
-  return <HeaderDiv {...restProps}>{children}</HeaderDiv>;
-};
 Header.Container = function HeaderContainer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };

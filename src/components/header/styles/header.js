@@ -1,13 +1,7 @@
 import styled from "styled-components";
 
 export const SiteTitleContainer = styled.div``;
-export const Title = styled.h1`
-  font-family: "Lora", serif;
-  font-weight: 400;
-  color: #143774;
-  font-size: 2rem;
-  margin: 0;
-`;
+export const Title = styled.h1``;
 export const Subtitle = styled.p`
   font-weight: 700;
   color: #1792d2;
@@ -49,20 +43,7 @@ export const NavLink = styled.a`
   }
 `;
 
-export const Container = styled.div`
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  @media (min-width: 675px) {
-    flex-direction: row;
-  }
-`;
-
-export const HeaderDiv = styled.header`
+export const Container = styled.header`
   background: #f8f8f8;
   padding: 2em 0;
   text-align: center;
