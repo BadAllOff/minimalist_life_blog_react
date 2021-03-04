@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/minimalist_life_blog_react/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/minimalist_life_blog_react/static/js/main.74cd7dff.chunk.js",
+    "main.js.map": "/minimalist_life_blog_react/static/js/main.74cd7dff.chunk.js.map",
+    "runtime-main.js": "/minimalist_life_blog_react/static/js/runtime-main.2be302d4.js",
+    "runtime-main.js.map": "/minimalist_life_blog_react/static/js/runtime-main.2be302d4.js.map",
+    "static/js/2.decc948b.chunk.js": "/minimalist_life_blog_react/static/js/2.decc948b.chunk.js",
+    "static/js/2.decc948b.chunk.js.map": "/minimalist_life_blog_react/static/js/2.decc948b.chunk.js.map",
+    "static/js/3.bd384096.chunk.js": "/minimalist_life_blog_react/static/js/3.bd384096.chunk.js",
+    "static/js/3.bd384096.chunk.js.map": "/minimalist_life_blog_react/static/js/3.bd384096.chunk.js.map",
+    "index.html": "/minimalist_life_blog_react/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/minimalist_life_blog_react/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.decc948b.chunk.js.LICENSE.txt": "/minimalist_life_blog_react/static/js/2.decc948b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/minimalist_life_blog_react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2be302d4.js",
+    "static/js/2.decc948b.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.74cd7dff.chunk.js"
+  ]
+}
