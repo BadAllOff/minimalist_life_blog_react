@@ -61,6 +61,15 @@ strong {
     .container-flex {
         flex-direction: row;
     }
+    main {
+        width: 70%;
+    }
+    
+    aside {
+        width: 25%;
+        min-width: 200px;
+        margin-left: 1em;
+    }
 }
 .current-page {
     border-bottom: 1px solid #707070;
