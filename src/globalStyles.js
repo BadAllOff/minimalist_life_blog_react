@@ -56,11 +56,14 @@ strong {
     flex-direction: column;
     justify-content: space-between;
 }
-
-@media (min-width: 675px) {  
+@media (min-width: 820px) {
     .container-flex {
         flex-direction: row;
     }
+}
+
+@media (min-width: 675px) {  
+
     main {
         width: 70%;
     }

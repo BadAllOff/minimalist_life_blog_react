@@ -16,13 +16,13 @@ export const NavList = styled.ul`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 675px) {
+  @media (max-width: 820px) {
     flex-direction: column;
   }
 `;
 export const NavListItem = styled.li`
   margin-left: 2em;
-  @media (max-width: 675px) {
+  @media (max-width: 820px) {
     margin: 0.5em 0;
   }
 `;
@@ -50,7 +50,7 @@ export const Container = styled.header`
   margin-bottom: 3em;
   color: rgba(255, 255, 255, 0.65);
 
-  @media (min-width: 675px) {
+  @media (min-width: 820px) {
     text-align: left;
   }
 `;
