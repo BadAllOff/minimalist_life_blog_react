@@ -1,21 +1,17 @@
 import React from "react";
 import FeaturedArticle from "../components/featuredArticle";
+import ReactHtmlParser from 'react-html-parser';
 
-export function FeaturedArticleContainer({ children }) {
+export function FeaturedArticleContainer({ article }) {
   return (
     <FeaturedArticle>
-      <FeaturedArticle.Title>Lorem ipsum dolor sit amet.</FeaturedArticle.Title>
+      <FeaturedArticle.Title>{article.title}</FeaturedArticle.Title>
       <FeaturedArticle.Img
-        src={process.env.PUBLIC_URL + "/images/minimalizm.jpg"}
+        src={process.env.PUBLIC_URL + article.img}
       ></FeaturedArticle.Img>
-      <FeaturedArticle.Info>March 18 2021 | 12 comments</FeaturedArticle.Info>
+      <FeaturedArticle.Info>{article.date} | {article.comments_count} comments</FeaturedArticle.Info>
       <FeaturedArticle.Body>
-        <strong>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </strong>
-        Nemo, sequi obcaecati. Similique mollitia{" "}
-        <a href="#">blanditiis quasi?</a> Sequi vitae qui labore, culpa,
-        perspiciatis ipsa sapiente eveniet ex ea expedita eum commodi nostrum.
+      {ReactHtmlParser(article.body)}
       </FeaturedArticle.Body>
       <FeaturedArticle.Link to={<></>}>CONTINUE READING</FeaturedArticle.Link>
     </FeaturedArticle>

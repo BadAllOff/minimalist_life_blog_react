@@ -1,0 +1,10 @@
+[
+  {
+    "article_id": 1,
+    "title": "Lorem ipsum dolor sit amet.",
+    "img": "/images/minimalizm.jpg",
+    "date": "March 18 2021",
+    "comments_count": "12",
+    "body": "<strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Nemo, sequi obcaecati. Similique mollitia <a href=\"#\">blanditiis quasi?</a> Sequi vitae qui labore, culpa, perspiciatis ipsa sapiente eveniet ex ea expedita eum commodi nostrum."
+  }
+]

@@ -1,6 +1,7 @@
 import React from "react";
 import { HeaderContainer } from '../containers/header';
 import { FeaturedArticleContainer } from '../containers/featuredArticle';
+import FeaturedArticleData from "../fixtures/featured_article.json";
 
 export default function Home() {
   return (
@@ -8,9 +9,9 @@ export default function Home() {
       <HeaderContainer />
       <div className="container container-flex">
         <main role="main">
-          <FeaturedArticleContainer></FeaturedArticleContainer>
+          <FeaturedArticleContainer article={FeaturedArticleData[0]} />
         </main>
-        <aside class="sidebar"></aside>
+        <aside className="sidebar"></aside>
       </div>
     </>
   );
