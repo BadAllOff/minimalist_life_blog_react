@@ -9,16 +9,19 @@ import RecentPostWidgetData from "../fixtures/recent_posts_widget.json";
 import AboutMeData from "../fixtures/about_me.json";
 import RecentArticlesData from "../fixtures/recent_articles.json";
 import RecentArticleContainer from "../containers/recentArticle";
+import FooterContainer from "../containers/footer";
 
 export default function Home() {
-  console.log(AboutMeData)
+  console.log(AboutMeData);
   return (
     <>
       <HeaderContainer />
       <div className="container container-flex">
         <main role="main">
           <FeaturedArticleContainer article={FeaturedArticleData[0]} />
-          {RecentArticlesData.map(article => <RecentArticleContainer article={article}/>)}
+          {RecentArticlesData.map((article) => (
+            <RecentArticleContainer article={article} />
+          ))}
         </main>
         <aside className="sidebar">
           <SidebarWidgetContainer title="about me">
@@ -42,6 +45,7 @@ export default function Home() {
           </SidebarWidgetContainer>
         </aside>
       </div>
+      <FooterContainer />
     </>
   );
 }
