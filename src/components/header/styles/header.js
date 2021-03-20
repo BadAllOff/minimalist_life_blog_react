@@ -15,15 +15,16 @@ export const NavList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
-  @media (max-width: 820px) {
-    flex-direction: column;
+  @media (min-width: 820px) {
+    flex-direction: row;
   }
 `;
 export const NavListItem = styled.li`
-  margin-left: 2em;
-  @media (max-width: 820px) {
-    margin: 0.5em 0;
+  margin: 0.5em 0;
+  @media (min-width: 820px) {
+    margin-left: 2em;
   }
 `;
 

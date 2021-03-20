@@ -56,7 +56,7 @@ strong {
     flex-direction: column;
     justify-content: space-between;
 }
-@media (min-width: 820px) {
+@media (min-width: 675px) {
     .container-flex {
         flex-direction: row;
     }
@@ -78,8 +78,6 @@ strong {
     border-bottom: 1px solid #707070;
     color: #1792d2;
     transition: letter-spacing 250ms;
-}
-
-`;
+}`;
 
 export default GlobalStyle;

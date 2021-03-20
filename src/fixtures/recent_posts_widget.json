@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Keeping cooking simple",
+        "image": "/images/food.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Simplicity and work",
+        "image": "/images/work.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Simple decorations",
+        "image": "/images/vills.jpeg"
+    }
+]
