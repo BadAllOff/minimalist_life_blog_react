@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem, ipsum dolor.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, porro autem nisi reiciendis minima sit in asperiores placeat maiores nesciunt.",
+    "image": "/images/wake-up.jpg",
+    "alt": "Lorem, ipsum dolor",
+    "date": "March 20",
+    "comments_count": 23
+  },
+  {
+    "id": 2,
+    "title": "Lorem, ipsum dolor.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, porro autem nisi reiciendis minima sit in asperiores placeat maiores nesciunt.",
+    "image": "/images/images.jpeg",
+    "alt": "Lorem, ipsum dolor",
+    "date": "March 20",
+    "comments_count": 14  },
+  {
+    "id": 3,
+    "title": "Lorem, ipsum dolor.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, porro autem nisi reiciendis minima sit in asperiores placeat maiores nesciunt.",
+    "image": "/images/cups.jpg",
+    "alt": "Lorem, ipsum dolor",
+    "date": "March 20",
+    "comments_count": 2
+  }
+]

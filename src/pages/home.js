@@ -7,6 +7,8 @@ import AboutMeWidget from "../components/aboutMeWidget";
 import FeaturedArticleData from "../fixtures/featured_article.json";
 import RecentPostWidgetData from "../fixtures/recent_posts_widget.json";
 import AboutMeData from "../fixtures/about_me.json";
+import RecentArticlesData from "../fixtures/recent_articles.json";
+import RecentArticleContainer from "../containers/recentArticle";
 
 export default function Home() {
   console.log(AboutMeData)
@@ -16,6 +18,7 @@ export default function Home() {
       <div className="container container-flex">
         <main role="main">
           <FeaturedArticleContainer article={FeaturedArticleData[0]} />
+          {RecentArticlesData.map(article => <RecentArticleContainer article={article}/>)}
         </main>
         <aside className="sidebar">
           <SidebarWidgetContainer title="about me">
