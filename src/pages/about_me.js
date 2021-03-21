@@ -14,6 +14,7 @@ export default function AboutMe() {
           <img
             src={process.env.PUBLIC_URL + "/images/about-me.jpg"}
             class="image-full"
+            alt="random guy"
           />
           <h2>My name is U and living the simple life saved my life</h2>
           <p>
@@ -28,7 +29,7 @@ export default function AboutMe() {
             roasted parts of sentences fly into your mouth.
           </p>
 
-          <h3>>Even the all-powerful</h3>
+          <h3>&gt;Even the all-powerful</h3>
           <p>
             <strong>Even the all-powerful Pointing has no control</strong> about
             the blind texts it is an almost unorthographic life One day however
@@ -40,7 +41,7 @@ export default function AboutMe() {
             place, I didn't know what else to do. And it worked.
           </p>
 
-          <h3>>Alphabet Village and the subline</h3>
+          <h3>&gt;Alphabet Village and the subline</h3>
           <p>
             Now that I'm living a simple life, things are so much better. I'm
             less stressed, enjoy life and work more, and I have more free time
