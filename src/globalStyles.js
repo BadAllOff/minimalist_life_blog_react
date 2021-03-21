@@ -78,6 +78,12 @@ strong {
     border-bottom: 1px solid #707070;
     color: #1792d2;
     transition: letter-spacing 250ms;
+}
+.image-full {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
 }`;
 
 export default GlobalStyle;
