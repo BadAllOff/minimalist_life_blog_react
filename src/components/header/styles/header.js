@@ -22,7 +22,6 @@ export const NavList = styled.ul`
   }
 `;
 export const NavListItem = styled.li`
-  margin: 0.5em 0;
   @media (min-width: 820px) {
     margin-left: 2em;
   }
