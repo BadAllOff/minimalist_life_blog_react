@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/header";
 import * as ROUTES from "../constants/routes";
+import { Header } from "../components";
 
 export function HeaderContainer({ children }) {
   return (

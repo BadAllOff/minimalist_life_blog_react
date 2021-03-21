@@ -1,19 +1,21 @@
 import React from "react";
 import { HeaderContainer } from "../containers/header";
 import { SidebarWidgetContainer } from "../containers/sidebarWidget";
-import RecentPostWidget from "../components/recentPostWidget";
+import { FooterContainer } from "../containers/footer";
+// Widgets
+import { RecentPostWidget } from "../components";
+// Fixtures
 import RecentPostWidgetData from "../fixtures/recent_posts_widget.json";
-import FooterContainer from "../containers/footer";
 
 export default function AboutMe() {
   return (
     <>
       <HeaderContainer />
-      <div class="container container-flex">
+      <div className="container container-flex">
         <main role="main">
           <img
             src={process.env.PUBLIC_URL + "/images/about-me.jpg"}
-            class="image-full"
+            className="image-full"
             alt="random guy"
           />
           <h2>My name is U and living the simple life saved my life</h2>
@@ -60,7 +62,7 @@ export default function AboutMe() {
           <SidebarWidgetContainer title="recent posts">
             {RecentPostWidgetData.map((post) => {
               return (
-                <RecentPostWidget>
+                <RecentPostWidget key={post.id}>
                   <RecentPostWidget.Title>{post.title}</RecentPostWidget.Title>
                   <RecentPostWidget.Image
                     src={process.env.PUBLIC_URL + post.image}

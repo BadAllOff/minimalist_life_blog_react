@@ -1,16 +1,16 @@
 import React from "react";
 
-import SidebarWidget from "../components/sidebarWidget";
+import { Widget } from "../components";
 
-export function SidebarWidgetContainer({children, title=""}) {
+export function SidebarWidgetContainer({ children, title = "" }) {
   return (
-    <SidebarWidget>
-      <SidebarWidget.Title>{title}</SidebarWidget.Title>
+    <Widget>
+      <Widget.Title>{title}</Widget.Title>
       {children}
-    </SidebarWidget>
-  )
+    </Widget>
+  );
 }
 
-SidebarWidgetContainer.defaultProps ={
-  title: 'Provide title for sidebar widget component'
-}
+SidebarWidgetContainer.defaultProps = {
+  title: "Provide title for sidebar widget component",
+};

@@ -2,14 +2,15 @@ import React from "react";
 import { HeaderContainer } from "../containers/header";
 import { FeaturedArticleContainer } from "../containers/featuredArticle";
 import { SidebarWidgetContainer } from "../containers/sidebarWidget";
-import RecentPostWidget from "../components/recentPostWidget";
-import AboutMeWidget from "../components/aboutMeWidget";
-import FeaturedArticleData from "../fixtures/featured_article.json";
+import { RecentArticleContainer } from "../containers/recentArticle";
+import { FooterContainer } from "../containers/footer";
+// Widgets
+import { RecentPostWidget } from "../components";
+import { AboutMeWidget } from "../components";
+// Fixtures
 import RecentPostWidgetData from "../fixtures/recent_posts_widget.json";
 import AboutMeData from "../fixtures/about_me.json";
 import RecentArticlesData from "../fixtures/recent_articles.json";
-import RecentArticleContainer from "../containers/recentArticle";
-import FooterContainer from "../containers/footer";
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
       <HeaderContainer />
       <div className="container container-flex">
         <main role="main">
-          <FeaturedArticleContainer article={FeaturedArticleData[0]} />
-          {RecentArticlesData.map((article) => (
-            <RecentArticleContainer article={article} />
+          <FeaturedArticleContainer article={RecentArticlesData[0]} />
+          {RecentArticlesData.slice(1).map((article) => (
+            <RecentArticleContainer key={article.id} article={article} />
           ))}
         </main>
         <aside className="sidebar">
@@ -33,7 +34,7 @@ export default function Home() {
           <SidebarWidgetContainer title="recent posts">
             {RecentPostWidgetData.map((post) => {
               return (
-                <RecentPostWidget>
+                <RecentPostWidget key={post.id}>
                   <RecentPostWidget.Title>{post.title}</RecentPostWidget.Title>
                   <RecentPostWidget.Image
                     src={process.env.PUBLIC_URL + post.image}
