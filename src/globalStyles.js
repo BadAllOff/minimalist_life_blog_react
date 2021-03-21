@@ -79,6 +79,10 @@ strong {
     color: #1792d2;
     transition: letter-spacing 250ms;
 }
+.current-page:hover {
+    color: #707070;
+    letter-spacing: .2em;
+}
 .image-full {
     max-height: 300px;
     width: 100%;
