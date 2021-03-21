@@ -1,23 +1,24 @@
 import React from "react";
-import { HashRouter as Router, Switch } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
+import AboutMe from "./pages/about_me";
+import RecentPosts from "./pages/recent_posts";
 import "normalize.css";
 import GlobalStyle from "./globalStyles";
 export function App() {
   return (
     <>
       <GlobalStyle />
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={"/"}>
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/recent">
-            <p>I will be the recent posts page</p>
+          <Route path="/recent_posts">
+            <RecentPosts />
           </Route>
-          <Route path="/sbout">
-            <p>I will be about me page</p>
+          <Route path="/about_me">
+            <AboutMe />
           </Route>
           {/* {implement not found page} */}
         </Switch>

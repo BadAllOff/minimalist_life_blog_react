@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink as ReachRouterLink } from "react-router-dom";
 
 export const SiteTitleContainer = styled.div``;
 export const Title = styled.h1``;
@@ -27,7 +28,7 @@ export const NavListItem = styled.li`
   }
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(ReachRouterLink)`
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.125em;

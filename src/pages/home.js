@@ -12,7 +12,6 @@ import RecentArticleContainer from "../containers/recentArticle";
 import FooterContainer from "../containers/footer";
 
 export default function Home() {
-  console.log(AboutMeData);
   return (
     <>
       <HeaderContainer />
