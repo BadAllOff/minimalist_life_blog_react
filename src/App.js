@@ -4,12 +4,10 @@ import Home from "./pages/home";
 import AboutMe from "./pages/about_me";
 import RecentPosts from "./pages/recent_posts";
 import NotFound from "./pages/not_found";
-import "normalize.css";
-import GlobalStyle from "./globalStyles";
+
 export function App() {
   return (
     <>
-      <GlobalStyle />
       <Router basename={"/"}>
         <Switch>
           <Route exact path="/">
